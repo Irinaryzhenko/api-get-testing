@@ -13,7 +13,7 @@ import java.io.IOException;
 
 public class BodyContentTest {
         @Test
-        public void checkBodyContainsParam() throws IOException, ParseException {
+        public void checkBodyContent() throws IOException, ParseException {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpGet httpGet = new HttpGet("https://api.reverb.com/api/articles");
         CloseableHttpResponse response = httpClient.execute(httpGet);
