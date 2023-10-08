@@ -28,5 +28,3 @@ public class BodyContentTest {
             httpClient.close();
     }
 }
-
-
