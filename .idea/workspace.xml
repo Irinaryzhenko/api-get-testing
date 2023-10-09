@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2983f4c7-72aa-4eef-9567-5e9221d25964" name="Changes" comment="refactor">
+    <list default="true" id="2983f4c7-72aa-4eef-9567-5e9221d25964" name="Changes" comment="refactor code">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/JsonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.BodyContentTest.checkBodyContent">
+  <component name="RunManager" selected="JUnit.JsonTest.get200">
     <configuration name="BodyContentTest.checkBodyContainsParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-get-testing" />
       <extension name="coverage">
@@ -99,6 +101,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JsonTest.get200" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-get-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.JsonTest" />
+      <option name="METHOD_NAME" value="get200" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StatusCodeTest.checkStatusCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-get-testing" />
       <extension name="coverage">
@@ -115,29 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatusCodeTest.getApachTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-get-testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.StatusCodeTest" />
-      <option name="METHOD_NAME" value="getApachTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JsonTest.get200" />
         <item itemvalue="JUnit.BodyContentTest.checkBodyContent" />
         <item itemvalue="JUnit.StatusCodeTest.checkStatusCode" />
         <item itemvalue="JUnit.BodyContentTest.checkBodyContainsParam" />
         <item itemvalue="JUnit.BodyContentTest.checkContent" />
-        <item itemvalue="JUnit.StatusCodeTest.getApachTest" />
       </list>
     </recent_temporary>
   </component>
@@ -164,11 +166,19 @@
       <option name="project" value="LOCAL" />
       <updated>1696696225635</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor code">
+      <created>1696773381212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696773381212</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
   </component>
 </project>
